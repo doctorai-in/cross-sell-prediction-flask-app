@@ -4,7 +4,7 @@ import os
 from flask import Flask, request, jsonify, render_template
 import pickle
 import joblib
-from house_price_prediction import house_price
+from cross_sell_prediction import house_price
 import glob
 app = Flask(__name__)
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
