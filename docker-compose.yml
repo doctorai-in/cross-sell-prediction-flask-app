@@ -3,13 +3,13 @@ version: '2.3'
 services:
   
   cross-sell-prediction:
-    image: ml-flask-app
+    image: doctorai/ml-flask-app
     ports: 
       - "8080:8080"
     command: python app.py
   
   cross-sell-prediction-2:
-    image: ml-flask-app  
+    image: doctorai/ml-flask-app  
     ports: 
       - "8081:8080"
     command: python app.py  
